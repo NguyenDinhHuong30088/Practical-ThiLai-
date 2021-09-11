@@ -11,9 +11,9 @@ class Survey extends Model
     protected $table = "survey";
 
     protected $fillable = [
-        "name",
-        "email",
-        "tel",
-        "comment"
+        'name',
+        'email',
+        'tel',
+        'comment'
     ];
 }
